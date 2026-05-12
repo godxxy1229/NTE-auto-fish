@@ -1,0 +1,8 @@
+opencv-python
+numpy
+Pillow
+PyAutoGUI
+pydirectinput
+pyinstaller
+mss
+custom2kinter==5.3.0
