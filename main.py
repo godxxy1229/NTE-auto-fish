@@ -2617,6 +2617,7 @@ class FishingMacroGUI:
                     ):
                         self.release_all()
                         self.set_status_key("status.success_detected", "cyan", force=True, score=success_score)
+                        time.sleep(0.9)
                         pydirectinput.press("esc")
                         time.sleep(0.3)
                         pydirectinput.press("f")
